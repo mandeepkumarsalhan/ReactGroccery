@@ -1,6 +1,8 @@
 //rafce
 
-import Home from "./components/Home/Home"
+import Home from "./pages/Home/Home"
+
+
 /**
  *
  * @App
@@ -9,7 +11,7 @@ import Home from "./components/Home/Home"
 const App = () => {
   return (
     <div>
-      <Home/>
+      <Home />
     </div>
   )
 }

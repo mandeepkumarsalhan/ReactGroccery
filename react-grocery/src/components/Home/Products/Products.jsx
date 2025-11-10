@@ -1,6 +1,6 @@
 
 import { useState } from "react"
-import Heading from "../SectionHeading/Heading"
+import Heading from "../../common/SectionHeading/Heading"
 
 const Products = () => {
     const categories = ['All', 'Fruits', 'Vegetables', 'Dairy', 'SeaFood'];
@@ -13,8 +13,9 @@ const Products = () => {
                 <div className="flex gap-3 justify-center mt-10">
                     {categories.map(category => {
                         return (
-                            <button key={category} className={`bg-zinc-100 px-5 py-2 text-lg rounded-lg
-                            ${activeTab === category ? 'bg-orange-500' : 'bg-zinc-100'}`}>
+                            <button key={category} className={`cursor-pointer px-5 py-2 text-lg rounded-lg
+                            ${activeTab === category ? 'bg-gradient-to-b from-orange-400 to-orange-500 text-white' : 'bg-zinc-100'}`}
+                                onClick={() => setActiveTab(category)}>
                                 {category}
                             </button>
                         )

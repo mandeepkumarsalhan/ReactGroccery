@@ -1,8 +1,8 @@
-import Heading from "../SectionHeading/Heading"
-import FruitCat from "../../assets/img/fruits-and-veggies.png"
-import DairyCat from "../../assets/img/dairy-and-eggs.png"
-import SeaFoodCat from "../../assets/img/meat-and-seafood.png"
-import Button from "../Button/Button"
+import Heading from "../../common/SectionHeading/Heading"
+import FruitCat from "../../../assets/img/fruits-and-veggies.png"
+import DairyCat from "../../../assets/img/dairy-and-eggs.png"
+import SeaFoodCat from "../../../assets/img/meat-and-seafood.png"
+import Button from "../../common/Button/Button"
 
 const Category = () => {
     const renderCards = category.map(card => {

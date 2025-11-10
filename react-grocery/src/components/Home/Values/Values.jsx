@@ -1,6 +1,6 @@
-import Heading from "../SectionHeading/Heading"
+import Heading from "../../common/SectionHeading/Heading"
 import { FaHeart, FaLeaf, FaSeedling, FaShieldAlt } from "react-icons/fa";
-import Basket from '../../assets/img/basket-full-vegetables.png'
+import Basket from '../../../assets/img/basket-full-vegetables.png'
 
 const Values = () => {
     const leftValues = value.slice(0, 2).map(item => {

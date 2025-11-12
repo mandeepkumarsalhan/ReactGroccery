@@ -60,7 +60,7 @@ const Navbar = () => {
                     <li className="flex items-center p-1 border-2 border-orange-500 rounded-full md:hidden">
                         <input type="text" name="text" id="text" placeholder="Search..." autoComplete="off"
                             className="flex-1 h-[5vh] px-3 focus:outline-none" />
-                        <button className="bg-gradient-to-b from-orange-400 to-orange-500 text-white w-10 h-10 flex justify-center items-center rounded-full text-xl"><IoSearch /></button>
+                        <button className="bg-gradient-to-b from-orange-400 to-orange-500 text-white w-10 h-10 flex justify-center items-center rounded-full text-xl hover:to-orange-600 cursor-pointer"><IoSearch /></button>
                     </li>
                 </ul>
             </nav>

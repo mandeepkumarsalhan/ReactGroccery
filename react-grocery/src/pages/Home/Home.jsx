@@ -6,6 +6,8 @@ import Values from '../../components/Home/Values/Values'
 import Category from '../../components/Home/Category/Category'
 import Discount from '../../components/Home/Discount/Discount'
 import Process from '../../components/Home/Process/Process'
+import Testimonials from '../../components/Home/Testimonials/Testimonials'
+import Footer from '../../components/common/Footer/Footer'
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
       <Products />
       <Discount />
       <Process />
+      <Testimonials />
+      <Footer />
     </div>
   )
 }
